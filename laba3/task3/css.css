@@ -1,0 +1,25 @@
+.header {
+	border: 1px solid black;
+	width: 900px;
+	height: 200px;
+}
+
+.sidebar {
+	border: 1px solid black;
+	width: 250px;
+	height: 500px;
+	float: left;
+}
+
+.content {
+	display: flex;
+	border: 1px solid black;
+	width: 648px;
+	height: 500px;
+}
+
+.footer {
+	border: 1px solid black;
+	width: 900px;
+	height: 200px;
+}

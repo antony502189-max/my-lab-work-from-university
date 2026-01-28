@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav li {
+	list-style: none;
+	display: inline-block;
+	width: 110px;
+	height: 35px;
+	padding-top: 15px;
+	margin-right: -5px;
+	text-align: center;
+	background-color: darkcyan;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+nav li:hover {
+	background-color: darkblue;
+}
+nav {
+	background-color: darkcyan;
+}
+.led {
+	background-color: darkturquoise;
+}
+
+#body {
+	background-color:gainsboro;
+}
+.first {
+	float: left;
+	text-align: justify;
+	width: 20%;
+	margin: 20px;
+}
+.second {
+	width: 20%;
+	float: right;
+	text-align: justify;
+	margin: 20px;
+}
+article {
+	text-align: justify;
+	width: 60%;
+	margin-top: 20px;
+}
+#main {
+	display: flex;
+	background-color: white;
+	height: 200%;
+	margin-top: 40px;
+}
+img {
+	margin-top: 20px;
+}
+.img_1 {
+	width: 100%;
+	height: 50ch;
+}
+.img_2 {
+	width: 100%;
+}
+.img_3 {
+	width: 100%;
+	transform: scale(-1, 1);
+}
+.img_4 {
+	width: 49%;
+}
+.img_5 {
+	transform: scale(-1, 1);
+	width: 49%;
+	margin-left: -5px;
+}
+h3 {
+	text-align: center;
+}
+.h {
+	margin-top: 20px;
+}
+p {
+	margin-top: 20px;
+}
+#footer{
+	margin-top: 40px;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	background-color: darkcyan;
+	display: block;
+}
+footer li {
+	list-style: none;
+	margin-top: 40px;
+	margin-right: 8px;
+	background-color:white;
+	display: inline-block;
+	width: 23%;
+	height: 300px;
+}
+cite{
+	color: white;
+	margin: 40px;
+	padding: 40px;
+}
+footer p{
+	margin-top: 40px;
+}
+
+

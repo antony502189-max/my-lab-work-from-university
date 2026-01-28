@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	background: url(img_10/bg.jpg);
+}
+img {
+	position: absolute;
+}
+.pl_1 {
+	z-index: 1;
+	top: 25px;
+	left: 185px;
+}
+.pl_2 {
+	z-index: 2;
+	top: 60px;
+	left: 50px;
+}
+.pl_3 {
+	z-index: 4;
+	top: 135px;
+	left: 140px;
+}
+.ship {
+	z-index: 3;
+	top: 150px;
+	left: 145px;
+}
+.ufo {
+	z-index: 5;
+	top: 290px;
+	left: 120px;
+}
+.man {
+	bottom: 0;
+	right: 36px;
+}
+.asteroid {
+	top: 80px;
+	right: 100px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Задача12</title>
+	</head>
+	<body>
+		<h1>Карта сокровищ</h1>
+		<hr />
+		<img src="img/task12.jpg" usemap="#treasure" alt="карта" />
+		<map name="treasure">
+			<area
+				alt="Осьминог"
+				shape="rect"
+				coords="37,228,113,276"
+				href="#66"
+				title="Осьминог"
+				id="3"
+			/>
+			<area
+				alt="Акула"
+				shape="rect"
+				coords="393,20,460,70"
+				href="#33"
+				title="Акула"
+				id="2"
+			/>
+			<area
+				alt="Клад"
+				shape="rect"
+				coords="242,82,303,123"
+				href="#100"
+				title="Клад"
+				id="4"
+			/>
+			<area
+				alt="Корабль"
+				shape="rect"
+				coords="209,227,267,291"
+				href="#0"
+				title="Корабль"
+				id="0"
+			/>
+		</map>
+		<p>
+			Пройдено:&nbsp;&nbsp;
+			<progress id="progressBar" value="0" max="100"></progress>
+		</p>
+		<hr />
+		<cite>www.bsuir.by</cite>
+		<script>
+			window.onhashchange = e => changeValue(e.newURL.split('#')[1] || 0)
+			let progressBar = document.getElementById('progressBar')
+			function changeValue(value) {
+				progressBar.value = value
+			}
+		</script>
+	</body>
+</html>

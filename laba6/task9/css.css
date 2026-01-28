@@ -1,0 +1,46 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.main {
+	position: relative;
+	background: url(img/bg.jpg);
+	width: 600px;
+	height: 400px;
+  overflow: hidden;
+}
+img, button{
+	position: absolute;
+}
+.planet-1 {
+	left: 250px;
+	top: 70px;
+}
+.planet-2 {
+	left: 100px;
+	top: 100px;
+}
+.planet-3 {
+	left: 190px;
+	top: 200px;
+}
+.spaceship {
+	left: 230px;
+	top: 150px;
+}
+.asteroid {
+	left: 170px;
+	top: 150px;
+}
+.ufo {
+	left: 100px;
+	top: 160px;
+}
+button{
+  top: 260px;
+  left: 220px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color:lightsalmon;
+  font-size: 20px;
+}

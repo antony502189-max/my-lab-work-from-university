@@ -1,0 +1,20 @@
+td, th {
+	border: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+table {
+	border: 1px solid #ccc;
+	width: 500px;
+	border-collapse: collapse;
+}
+thead {
+	background-color: #f0f1f4;
+}
+tfoot {
+	background-color: #121212;
+	text-align: right;
+	color: #fff;
+}

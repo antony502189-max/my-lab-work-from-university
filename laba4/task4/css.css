@@ -1,0 +1,12 @@
+article {
+	border: 1px solid black;
+	margin-top: 20px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 25%;
+}
+article:hover {
+	overflow: visible;
+	white-space: normal;
+}

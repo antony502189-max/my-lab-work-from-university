@@ -1,0 +1,160 @@
+html,
+body {
+	background-color: #c7beff;
+	overflow: hidden;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+
+#ship {
+	position: absolute;
+	width: 1000px;
+	height: 1000px;
+	margin: 0;
+	top: 100px;
+	left: 20px;
+}
+
+#ship-details {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	top: 6px;
+	width: 243px;
+	z-index: 0;
+}
+
+#ship-inner-details {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 167px;
+	top: 110px;
+	left: 59px;
+	transform: rotateZ(-90deg) translateY(-120px);
+}
+
+#macht {
+	height: 120px;
+	width: 10px;
+	background-color: #6c62a9;
+}
+
+.sail {
+	position: relative;
+	top: -5px;
+}
+
+#sail-1 {
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-right: 35px solid white;
+	border-bottom: 70px solid white;
+	opacity: 0;
+}
+
+#sail-2 {
+	width: 0;
+	height: 0;
+	border: 40px solid transparent;
+	border-left: 20px solid white;
+	border-bottom: 80px solid white;
+	opacity: 0;
+}
+
+#button {
+	cursor: pointer;
+	position: relative;
+	background-color: #6c62a9;
+	color: #fff;
+	width: 244px;
+	margin-top: -5px;
+	padding: 35px 60px;
+	border: 0;
+	border-radius: 10px;
+}
+
+.ship_anim {
+	animation: ship 5s 1.2s ease-in-out;
+}
+@keyframes ship {
+	0% {
+		left: 20px;
+	}
+	100% {
+		left: 2000px;
+	}
+}
+
+.shipInner_anim {
+	animation: up 1.2s ease-out forwards;
+}
+@keyframes up {
+	0% {
+		transform: rotateZ(-90deg) translateY(-120px);
+		left: 59px;
+	}
+	25% {
+		left: 0;
+	}
+	100% {
+		transform: rotateZ(0deg) translateY(-120px);
+		left: 0;
+	}
+}
+
+.sail1_anim {
+	animation: sail-1 1.4s 0.2s ease-in-out forwards;
+}
+@keyframes sail-1 {
+	0% {
+		transform: rotateX(-90deg) translateZ(85px);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(0deg) translateZ(0deg);
+		opacity: 1;
+	}
+}
+
+.sail2_anim {
+	animation: sail-2 1.4s 0.2s ease-in-out forwards;
+}
+@keyframes sail-2 {
+	0% {
+		transform: rotateX(-90deg) translateZ(85px);
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotateX(0deg) translateZ(0deg);
+		opacity: 1;
+	}
+}
+
+.button_anim {
+	animation: button 6s linear forwards;
+}
+@keyframes button {
+	0% {
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	20% {
+		border-bottom-left-radius: 100px;
+		border-bottom-right-radius: 100px;
+	}
+	100% {
+		border-bottom-left-radius: 100px;
+		border-bottom-right-radius: 100px;
+	}
+}

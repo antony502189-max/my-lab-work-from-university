@@ -1,0 +1,24 @@
+a {
+	background-color: #ddd;
+	color: #333;
+	text-align: center;
+	padding: 30px 40px;
+	text-decoration: none;
+	margin: 6px;
+	font-size: 50px;
+}
+nav {
+	text-align: center;
+	padding: 50px;
+}
+a:hover {
+	background-color: #ccc;
+}
+a:active {
+	background-color: #d10953;
+	color: #fff;
+}
+a:focus {
+	background-color: #d10953;
+	color: #fff;
+}

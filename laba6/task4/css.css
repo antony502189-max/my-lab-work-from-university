@@ -1,0 +1,10 @@
+div{
+  display: flex;
+}
+input{
+  height: 20px;
+  margin-top: 10px;
+}
+p{
+  margin: 15px 5px ;
+}

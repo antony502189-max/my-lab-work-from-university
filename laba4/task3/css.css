@@ -1,0 +1,23 @@
+p {
+	margin-top: 20px;
+}
+.p_1 {
+	text-decoration-color: blue;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+.p_2 {
+	text-decoration-color: orange;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+.p_3 {
+	text-decoration-color: green;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+}
+.p_4 {
+	text-decoration-color: red;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}

@@ -1,0 +1,17 @@
+div{
+  display: flex;
+}
+p{
+  height: 10px;
+  margin: 0px 5px;
+}
+button{
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color:blue;
+  color: white;
+  border:none ;
+}
+button:hover{
+  background-color: darkblue;
+}

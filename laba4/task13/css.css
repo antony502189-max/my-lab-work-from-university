@@ -1,0 +1,36 @@
+p {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+main {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+	background-color: #ffd3c6;
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.pink,
+.blue,
+.green {
+	height: 75px;
+	width: 95%;
+	margin : 15px;
+}
+.pink {
+	background-color: #eeaeef;
+}
+.blue {
+	background-color: #4b9bd1;
+}
+.green {
+	background-color: #67c45a;
+}
